@@ -1,0 +1,27 @@
+<html>
+    <link rel="stylesheet" href="/styles/styling.css"></link>
+    <body>
+       {{>partials}}
+       <ul>
+ <a href='/'>Index</a>
+ <a href='/weather'>weather</a>
+ <a href='/about'>about</a>
+       </ul>
+         <form>
+            <input type="text" placeholder="Location" id="adds">
+            <Button id="sub">Submit</Button>
+        </form>
+        <div id="op3">
+          <p id="op"></p>
+          <p id="op1"></p>
+          <p id="op2"></p>
+        </div>
+          
+          
+            <p>Weather App With Node JS</p>
+<hr>
+        {{>footer}}
+    </body>
+       <script src="/js/fetch.js" ></script>
+     
+</html>

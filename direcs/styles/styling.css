@@ -1,0 +1,67 @@
+a{
+    text-decoration: none;
+    color:black;
+    font-size: 30;
+    padding: 0px 50px 0px 50px;
+    
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    left:20%;
+    top:15%;
+    justify-content: flex-start ;
+    
+}
+form{
+    position: relative;
+    left:26%;
+    top:20%;
+}
+a:hover{
+    color: purple;
+}
+h1{
+    font-size: 60;  
+    position: relative;
+    left:25%;
+    top:15%;
+}
+footer{
+    font-size: 30;
+    position: relative;
+    left:25%;
+    top:25%;
+    
+}
+p{
+    position: relative;
+    left:25%;
+    top:25%;
+}
+#p{
+    color: grey;
+    font-size: 35px;
+    position: relative;
+    left:25%;
+    top:11%;
+}
+hr{
+    width:50%;
+    position: relative;
+    top:25%;
+}
+Button{
+    border-radius: 20px;
+  
+}
+input{
+    border-radius: 7px;
+}
+#op3{
+    position: relative;
+    top:20%;
+    left:2%;
+    font-size: 15px;
+}
